@@ -212,50 +212,6 @@ body {
     line-height: 1.8;
 }
 
-/* Services Section */
-.services {
-    padding: 100px 0;
-}
-
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 60px;
-}
-
-.service-card {
-    background: var(--secondary-color);
-    padding: 40px 30px;
-    border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.service-card:hover {
-    transform: translateY(-10px);
-    border-color: rgba(102, 126, 234, 0.5);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-}
-
-.service-icon {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.service-card h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: var(--text-primary);
-}
-
-.service-card p {
-    font-size: 15px;
-    color: var(--text-secondary);
-    line-height: 1.6;
-}
-
 /* Featured App Section */
 .featured-app {
     padding: 100px 0;
@@ -300,23 +256,16 @@ body {
 .featured-title {
     font-size: 56px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background: var(--gradient-2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.featured-description {
-    font-size: 18px;
-    color: var(--text-secondary);
-    margin-bottom: 40px;
-    line-height: 1.8;
-}
-
 /* Contact Section */
 .contact {
-    padding: 100px 0;
+    padding: 120px 0 150px;
 }
 
 .contact-content {
@@ -397,9 +346,5 @@ body {
     
     .featured-title {
         font-size: 38px;
-    }
-    
-    .services-grid {
-        grid-template-columns: 1fr;
     }
 }
